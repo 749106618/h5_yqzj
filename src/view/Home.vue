@@ -8,12 +8,12 @@
         </div>
         <div class="hot-search-right" ref="personWrap">
           <ul ref="personTab">
-            <li>女士连衣裙</li>
-            <li>女士连衣裙</li>
-            <li>女士连衣裙</li>
-            <li>女士连衣裙</li>
-            <li>女士连衣裙</li>
-            <li>女士连衣裙</li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
+            <li><router-link to="/hotOrRecommend" style="color:#fff">女士连衣裙</router-link></li>
           </ul>
         </div>
       </div>
@@ -39,6 +39,155 @@
           <img :src="item">
         </van-swipe-item>
       </van-swipe>
+    </div>
+    <div class="goods">
+      <div class="goods-title">
+        <div class="goods-title-left">
+          <img src="../../static/home/tuijan.png" alt>
+          <span>为您推荐</span>
+        </div>
+        <div class="goods-title-right">
+          <span>查看更多</span>
+          <van-icon name="arrow"/>
+        </div>
+      </div>
+      <div class="goods-list">
+        <ul>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+          <li>
+            <img class="img1" src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+            <div class="goods-list-top">
+              <img src="https://www.yqzjw.com/res/upload/tqq/images/201901/002.png">
+              <span>usb充电体重秤电子秤精</span>
+            </div>
+            <dir class="goods-list-mid">
+              <div class="box1">券10</div>
+              <div class="box2">预估佣金￥7.18</div>
+            </dir>
+            <div class="goods-list-bottom">
+              <div class="left">
+                <span class="s1">￥</span>
+                <span class="s1 s2">68</span>
+                <span class="s3">￥139</span>
+              </div>
+              <div class="right">月售 21355</div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -113,7 +262,7 @@ export default {
   },
   methods: {
     personScroll() {
-      // 默认有六个li子元素，每个子元素的宽度为120px
+      // 默认有六个li子元素，每个子元素的宽度为80px
       let width = 6 * 80;
       this.$refs.personTab.style.width = width + "px";
       // this.$nextTick 是一个异步函数，为了确保 DOM 已经渲染
@@ -137,82 +286,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  background-color: #f23030;
-  .van-search {
-    padding-bottom: 3px;
-  }
-  .hot-search {
-    color: #fff;
-    padding: 0 16px;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    height: 25px;
-    &-left {
-      width: 25%;
-      font-size: 13px;
-      line-height: 25px;
-    }
-    &-right {
-      width: 75%;
-      height: 100%;
-      overflow: hidden;
-      ul {
-        display: flex;
-        li {
-          flex: 1;
-          height: 100%;
-          text-align: center;
-          line-height: 25px;
-        }
-      }
-    }
-  }
-}
-.banner {
-  margin-top: 72px;
-}
-.menus {
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 10px;
-      width: 20%;
-      font-size: 13px;
-      img {
-        width: 35px;
-        height: 35px;
-      }
-      div {
-        margin-top: 5px;
-      }
-    }
-  }
-  ul:after {
-    content: "";
-    width: 25%;
-  }
-}
-.activity {
-  padding: 10px 5%;
-  border-top: 1px solid #f0f0f0;
-  img {
-    height: 60px;
-    width: 100%;
-    border-radius: 30px;
-  }
-}
+@import "../assets/home.less";
 </style>
 
